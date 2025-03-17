@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost & Found Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>University Lost & Found Portal</h1>
+    </header>
+
+    <section>
+        <input type="text" id="searchBar" placeholder="Search lost or found items...">
+        <button onclick="searchItems()">Search</button>
+    </section>
+
+    <section>
+        <a href="lost-items.html"><button>Report Lost Item</button></a>
+        <a href="found-items.html"><button>Report Found Item</button></a>
+    </section>
+
+    <section id="recentReports">
+        <h2>Recent Reports</h2>
+        <ul id="reportList"></ul>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
